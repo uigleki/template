@@ -4,6 +4,7 @@
   "hostRequirements": {
     "cpus": 1
   },
+  "waitFor": "onCreateCommand",
   "customizations": {
     "vscode": {
       "settings": {
