@@ -1,0 +1,45 @@
+[MD003]
+style = "atx"
+
+[MD004]
+style = "dash"
+
+[MD009]
+strict = true
+
+[MD013]
+code-blocks = false
+reflow = true
+reflow-mode = "semantic-line-breaks"
+
+[MD029]
+style = "ordered"
+
+[MD035]
+style = "---"
+
+[MD046]
+style = "fenced"
+
+[MD048]
+style = "backtick"
+
+[MD049]
+style = "underscore"
+
+[MD050]
+style = "asterisk"
+
+[MD055]
+style = "leading_and_trailing"
+
+[MD060]
+enabled = true
+style = "aligned"
+
+[MD076]
+style = "tight"
+allow-loose-continuation = true
+
+[MD077]
+style = "aligned"
