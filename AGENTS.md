@@ -1,4 +1,4 @@
-# Agent Guide
+# AGENTS.md
 
 ## Conventions
 
