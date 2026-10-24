@@ -1,3 +1,9 @@
+# Claude Code prompt files: the model already gets their path or name, so an H1 adds nothing
+[per-file-ignores]
+"**/.claude/**/*.md" = ["MD041"]
+"**/CLAUDE.md" = ["MD041"]  # a one-line `@AGENTS.md` import
+"**/SKILL.md" = ["MD041"]
+
 [MD003]
 style = "atx"
 
@@ -35,7 +41,7 @@ style = "leading_and_trailing"
 
 [MD060]
 enabled = true
-style = "aligned"
+style = "compact"
 
 [MD076]
 style = "tight"
