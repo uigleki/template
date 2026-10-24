@@ -53,6 +53,7 @@
               };
 
               convco.enable = true;
+              deadnix.enable = true;
 
               nil = {
                 enable = true;
@@ -66,6 +67,8 @@
                 args = [ "--fix" ];
               };
 
+              statix.enable = true;
+
               tombi = {
                 enable = true;
                 package = pkgs.tombi;
@@ -76,6 +79,11 @@
               };
 
               typos.enable = true;
+
+              yamlfmt = {
+                enable = true;
+                settings.lint-only = false;
+              };
             };
           };
         };
