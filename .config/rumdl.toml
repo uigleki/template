@@ -1,6 +1,6 @@
 [per-file-ignores]
-"**/CLAUDE.md" = ["MD041"]  # a one-line `@AGENTS.md` import
-"**/SKILL.md" = ["MD041"]  # loaded under its name, so an H1 repeats it
+# a one-line `@AGENTS.md` import
+"**/CLAUDE.md" = ["MD041"]
 
 [MD003]
 style = "atx"
