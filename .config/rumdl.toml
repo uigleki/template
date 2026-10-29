@@ -1,3 +1,6 @@
+[global]
+line-length = 0
+
 [per-file-ignores]
 # a one-line `@AGENTS.md` import
 "**/CLAUDE.md" = ["MD041"]
@@ -12,9 +15,8 @@ style = "dash"
 strict = true
 
 [MD013]
-code-blocks = false
 reflow = true
-reflow-mode = "semantic-line-breaks"
+reflow-mode = "sentence-per-line"
 
 [MD029]
 style = "ordered"
